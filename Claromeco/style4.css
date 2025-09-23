@@ -1,0 +1,85 @@
+
+body{
+    
+
+background: #FFFFFF;
+margin: 0%;
+padding: 0%;
+
+}
+footer{
+  margin:auto;
+  padding: auto;
+   background-color: rgb(151, 219, 231);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: center;
+  font-size: 130%;
+  
+}
+.menu{
+
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.menu ul{
+  list-style-type: none;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.menu li{
+  display: inline-block;
+}
+.menu a{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 17px;
+}
+.menu:hover{
+    
+    background-color: rgb(151, 219, 231);
+    color: rgb(20, 174, 235);
+    font-size: 250%;
+  }
+  h1{
+     color: rgb(7, 7, 7);
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  h2{
+     color: rgba(55, 8, 163, 0.856);
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container {
+     display: grid;
+     grid-template-columns:0.5fr 0.5fr  ;
+     grid-template-rows:auto;
+     background-color: rgb(255, 255, 255);
+     padding: 10px; 
+     justify-content: center;
+     
+
+ }
+.container > div {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        padding:200px;
+        font-size: 300px;
+        p{
+          font-size: 10%;
+        }
+       
+        
+         
+
+
+}
+
+
+  

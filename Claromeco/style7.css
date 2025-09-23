@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgb(0, 0, 0) rgb(0, 0, 0));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0,3;
+}
+
+
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.014);
+    opacity: 0,7;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: #000000;
+    box-shadow: 0 8px 32px (black);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    color: #000000;
+
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: rgb(112, 214, 228);
+
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: backgrund-color 0.3s ease;
+
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: bacground-color 0.3s ease;
+
+
+}
+button:hover{
+    background-color: rgb(182, 204, 212);
+
+}
+.resultado{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+h1{
+    text-align: end;
+    font-size: 200%;
+}
+.Calculadora1{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+    padding: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+.fondo1{
+    position: absolute;
+    opacity: 0.9;
+   max-width:500%;
+   max-height:500% ;
+   z-index: 2,4;
+   
+    
+  }
+
+
